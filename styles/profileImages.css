@@ -1,0 +1,32 @@
+
+ul.gallery{
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.gallery li{
+	border: 1px solid #ddd;
+	display: inline;
+	float: left;
+	list-style: none;
+	margin: 0 10px 20px 10px;
+	padding: 10px;
+}
+
+ul.gallery li a:hover img{
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	transform-origin: top left;
+
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+
+	-webkit-box-shadow: 10px 10px 5px #888888;
+	-moz-box-shadow: 10px 10px 5px #888888;
+	-o-box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #888888;
+}
+

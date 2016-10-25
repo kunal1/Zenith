@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1-Apr-2014, 2:24:14 PM
+    Author     : Jagsir Singh
+*/
+.ticketHis{
+    font-family: Calibri;
+    width: 100%;
+}
+.meCol{
+    color: #359f31;
+    //border: 1px solid green;
+    text-align: right;
+    padding-right: 25px;
+}
+.otherCol{
+    color: #990000;
+    text-align: right;
+    //border: 1px solid green;
+    padding-right: 15px;
+}
+.divMe{
+    float: left;
+    color: #359f31;
+    width: 80%;
+    text-align: left;
+    //border: 1px solid green;
+    padding-left: 15px;
+}
+.divOther{
+    float: left;
+    color: #990000;
+    width: 80%;
+    padding: 5px 10px 5px 25px;
+    text-align: left;
+    //border: 1px solid red;
+}

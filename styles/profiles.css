@@ -1,0 +1,19 @@
+
+div#divHide {
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    border: 1px solid blue;
+    padding:10px;
+    background: #008c21;
+    color: white;
+}
+.tmpClose {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#tblContact td{
+    padding:5px;
+}
